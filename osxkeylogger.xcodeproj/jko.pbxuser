@@ -1,0 +1,165 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{38, 71}, {903, 681}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 70FF32C51319D54300B25712 /* osxkeylogger */;
+		activeTarget = 8D1107260486CEB800E47090 /* osxkeylogger */;
+		codeSenseManager = 70FF32CF1319D54600B25712 /* Code sense */;
+		executables = (
+			70FF32C51319D54300B25712 /* osxkeylogger */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320460099;
+			PBXWorkspaceStateSaveDate = 320460099;
+		};
+		perUserProjectItems = {
+			70FF32E01319D5A000B25712 /* PBXBookmark */ = 70FF32E01319D5A000B25712 /* PBXBookmark */;
+			70FF32EA1319D63100B25712 /* PBXTextBookmark */ = 70FF32EA1319D63100B25712 /* PBXTextBookmark */;
+			70FF32EB1319D63100B25712 /* PBXTextBookmark */ = 70FF32EB1319D63100B25712 /* PBXTextBookmark */;
+			70FF32EC1319D63100B25712 /* PBXBookmark */ = 70FF32EC1319D63100B25712 /* PBXBookmark */;
+			70FF32ED1319D63100B25712 /* PlistBookmark */ = 70FF32ED1319D63100B25712 /* PlistBookmark */;
+			70FF32F01319D63100B25712 /* PBXTextBookmark */ = 70FF32F01319D63100B25712 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 70FF32CE1319D54600B25712 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {844, 1300}}";
+			sepNavSelRange = "{93, 0}";
+			sepNavVisRange = "{0, 910}";
+		};
+	};
+	70FF32C51319D54300B25712 /* osxkeylogger */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = osxkeylogger;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	70FF32CE1319D54600B25712 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	70FF32CF1319D54600B25712 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	70FF32E01319D5A000B25712 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+	};
+	70FF32EA1319D63100B25712 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 0;
+	};
+	70FF32EB1319D63100B25712 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	70FF32EC1319D63100B25712 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* osxkeylogger-Info.plist */;
+	};
+	70FF32ED1319D63100B25712 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* osxkeylogger-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jko/Documents/programming/osxkeylogger/osxkeylogger-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	70FF32F01319D63100B25712 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 6";
+		rLen = 0;
+		rLoc = 93;
+		rType = 0;
+		vrLen = 910;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* osxkeylogger */ = {
+		activeExec = 0;
+		executables = (
+			70FF32C51319D54300B25712 /* osxkeylogger */,
+		);
+	};
+	8D1107310486CEB800E47090 /* osxkeylogger-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 50}, {903, 681}}";
+		};
+	};
+}
