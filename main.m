@@ -26,8 +26,14 @@ FILE* openLogFile()
 	// to cString
 	const char *pLogFileName = [logFileNameNS UTF8String];
 	
-	pLogFile = fopen(pLogFileName, "a");
 	
+	if (!strcmp(pLogFileName,"stdout")){
+		pLogFile = stdout;
+	}
+	else {
+		pLogFile = fopen(pLogFileName, "a");
+	}
+
 	// free all memory
 	[pool drain];
 	
