@@ -1,7 +1,7 @@
 Tosxkeylogger
 v7
 r0
-t320969081.951509
+t320974297.576045
 cCheck dependencies
 cProcessInfoPlistFile /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/Info.plist osxkeylogger-Info.plist
 cCopyStringsFile /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -15,8 +15,8 @@ cProcessPCH /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode
 cProcessPCH /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-gidnnpfjkkktnfgwkojeifuqdcnk/osxkeylogger_Prefix.pch.gch osxkeylogger_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
 cCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/main.o /Users/jko/Documents/programming/osxkeylogger/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeyloggerAppDelegate.o /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger normal x86_64
 cCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/main.o /Users/jko/Documents/programming/osxkeylogger/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger normal x86_64
 cCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeyloggerAppDelegate.o /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger normal i386
 cCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/main.o /Users/jko/Documents/programming/osxkeylogger/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
@@ -87,11 +87,11 @@ t1298767298
 s179106
 
 N/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app
-t1299276200
+t1299281497
 s102
 
 N/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app.dSYM
-t1299276028
+t1299281497
 s102
 
 N/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/Info.plist
@@ -99,8 +99,8 @@ t1299276200
 s1066
 
 N/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger
-t1299276027
-s64008
+t1299281497
+s64164
 
 N/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/PkgInfo
 t1299276200
@@ -131,12 +131,12 @@ t1298809328
 s208611
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/main.o
-t1299275994
-s14512
+t1299281496
+s15572
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger
-t1299275997
-s19652
+t1299281496
+s19860
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger.LinkFileList
 c000000004D699EAB000000000000010D
@@ -148,12 +148,12 @@ t1298767572
 s15332
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/main.o
-t1299276025
-s15092
+t1299281497
+s16240
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger
-t1299276027
-s18952
+t1299281497
+s19108
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger.LinkFileList
 c000000004D699EAB000000000000010B
@@ -165,12 +165,12 @@ t1298767572
 s15220
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/main.o
-t1299275965
-s16832
+t1299281495
+s18300
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger
-t1299275973
-s16456
+t1299281496
+s16680
 
 N/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger.LinkFileList
 c000000004D699EAB0000000000000111
@@ -182,11 +182,10 @@ t1298767570
 s21168
 
 N/Users/jko/Documents/programming/osxkeylogger/main.m
-c000000004D6C975B0000000000000CDB
-t1298962267
-s3291
+c000000004D7176560000000000000FD6
+t1299281494
+s4054
 i<ApplicationServices/ApplicationServices.h>
-i<mach/mach_time.h>
 i<Carbon/Carbon.h>
 
 N/Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.h
@@ -231,11 +230,11 @@ s1119
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies320969081#320969081#0(0"0(0#1#0"8604507488#0"0#
+lSLF07#2@18"Check dependencies320974294#320974294#0(0"0(0#1#0"8632572384#0"0#
 
 CCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/main.o /Users/jko/Documents/programming/osxkeylogger/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320968686.817527
-e320968794.583459
+s320974294.773237
+e320974296.077964
 r1
 xCompileC
 xbuild/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/main.o
@@ -244,7 +243,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/jko/Documents/programming/osxkeylogger/main.m320968686#320968794#0(0"0(0#0#52"/Users/jko/Documents/programming/osxkeylogger/main.m8606014176#1657"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/i386 -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -include /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-gchyoiulihtmsdgzpcdbzxofnvoy/osxkeylogger_Prefix.pch -c /Users/jko/Documents/programming/osxkeylogger/main.m -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/main.o0#
+lSLF07#2@60"Compile /Users/jko/Documents/programming/osxkeylogger/main.m320974294#320974296#0(0"0(0#0#52"/Users/jko/Documents/programming/osxkeylogger/main.m8629507200#1657"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/i386 -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -include /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-gchyoiulihtmsdgzpcdbzxofnvoy/osxkeylogger_Prefix.pch -c /Users/jko/Documents/programming/osxkeylogger/main.m -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/main.o0#
 
 CCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeyloggerAppDelegate.o /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s320460371.579841
@@ -260,8 +259,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m320460371#320460372#0(0"0(0#0#71"/Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m8616405312#1695"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/i386 -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -include /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-gchyoiulihtmsdgzpcdbzxofnvoy/osxkeylogger_Prefix.pch -c /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeyloggerAppDelegate.o0#
 
 CCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/main.o /Users/jko/Documents/programming/osxkeylogger/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s320968773.330369
-e320968825.347987
+s320974296.681233
+e320974297.321140
 r1
 xCompileC
 xbuild/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/main.o
@@ -270,7 +269,7 @@ xnormal
 xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/jko/Documents/programming/osxkeylogger/main.m320968773#320968825#0(0"0(0#0#52"/Users/jko/Documents/programming/osxkeylogger/main.m8603270880#1664"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/ppc -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -include /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-gidnnpfjkkktnfgwkojeifuqdcnk/osxkeylogger_Prefix.pch -c /Users/jko/Documents/programming/osxkeylogger/main.m -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/main.o0#
+lSLF07#2@60"Compile /Users/jko/Documents/programming/osxkeylogger/main.m320974296#320974297#0(0"0(0#0#52"/Users/jko/Documents/programming/osxkeylogger/main.m8631401024#1664"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/ppc -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -include /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-gidnnpfjkkktnfgwkojeifuqdcnk/osxkeylogger_Prefix.pch -c /Users/jko/Documents/programming/osxkeylogger/main.m -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/main.o0#
 
 CCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeyloggerAppDelegate.o /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
 s320460372.411860
@@ -286,8 +285,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m320460372#320460372#0(0"0(0#0#71"/Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m8617696288#1702"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/ppc -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -include /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-gidnnpfjkkktnfgwkojeifuqdcnk/osxkeylogger_Prefix.pch -c /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeyloggerAppDelegate.o0#
 
 CCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/main.o /Users/jko/Documents/programming/osxkeylogger/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s320968684.076722
-e320968765.786428
+s320974294.266805
+e320974295.622643
 r1
 xCompileC
 xbuild/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/main.o
@@ -296,7 +295,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/jko/Documents/programming/osxkeylogger/main.m320968684#320968765#0(0"0(0#0#52"/Users/jko/Documents/programming/osxkeylogger/main.m8604467072#1663"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/x86_64 -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -include /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-aygykahvjssvelbogunpcikbxyyc/osxkeylogger_Prefix.pch -c /Users/jko/Documents/programming/osxkeylogger/main.m -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/main.o0#
+lSLF07#2@60"Compile /Users/jko/Documents/programming/osxkeylogger/main.m320974294#320974295#0(0"0(0#0#52"/Users/jko/Documents/programming/osxkeylogger/main.m8627539424#1663"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/x86_64 -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -include /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-aygykahvjssvelbogunpcikbxyyc/osxkeylogger_Prefix.pch -c /Users/jko/Documents/programming/osxkeylogger/main.m -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/main.o0#
 
 CCompileC build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeyloggerAppDelegate.o /Users/jko/Documents/programming/osxkeylogger/osxkeyloggerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s320460366.882372
@@ -365,53 +364,53 @@ xwriterLogo.png
 lSLF07#2@19"Copy writerLogo.png320502128#320502128#0(0"0(0#0#60"/Users/jko/Documents/programming/osxkeylogger/writerLogo.png8626253632#393"    cd /Users/jko/Documents/programming/osxkeylogger    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/jko/Documents/programming/osxkeylogger/writerLogo.png /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/Resources0#
 
 CCreateUniversalBinary /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger normal "x86_64 i386 ppc"
-s320968827.837417
-e320968827.981215
+s320974297.432168
+e320974297.436171
 r1
 xCreateUniversalBinary
 x/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger
 xnormal
 xx86_64 i386 ppc
-lSLF07#2@105"CreateUniversalBinary build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger normal "x86_64 i386 ppc"320968827#320968827#0(0"0(0#0#61"/Users/jko/Documents/programming/osxkeylogger/x86_64 i386 ppc8605916128#586"    cd /Users/jko/Documents/programming/osxkeylogger    /usr/bin/lipo -create /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger -output /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger0#
+lSLF07#2@105"CreateUniversalBinary build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger normal "x86_64 i386 ppc"320974297#320974297#0(0"0(0#0#61"/Users/jko/Documents/programming/osxkeylogger/x86_64 i386 ppc8633480384#586"    cd /Users/jko/Documents/programming/osxkeylogger    /usr/bin/lipo -create /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger -output /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger0#
 
 CGenerateDSYMFile /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app.dSYM /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger
-s320968827.981320
-e320968828.350446
+s320974297.436269
+e320974297.571768
 r1
 xGenerateDSYMFile
 x/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app.dSYM
 x/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger
-lSLF07#2@111"GenerateDSYMFile build/Release/osxkeylogger.app.dSYM build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger320968827#320968828#0(0"0(0#0#104"/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger8606868160#275"    cd /Users/jko/Documents/programming/osxkeylogger    /Developer/usr/bin/dsymutil /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger -o /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app.dSYM0#
+lSLF07#2@111"GenerateDSYMFile build/Release/osxkeylogger.app.dSYM build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger320974297#320974297#0(0"0(0#0#104"/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger8633271264#275"    cd /Users/jko/Documents/programming/osxkeylogger    /Developer/usr/bin/dsymutil /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/MacOS/osxkeylogger -o /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app.dSYM0#
 
 CLd /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger normal i386
-s320968794.583624
-e320968797.177892
+s320974296.078325
+e320974296.702459
 r1
 xLd
 x/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger
 xnormal
 xi386
-lSLF07#2@135"Link /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger320968794#320968797#0(0"0(0#0#0"8606596416#650"    cd /Users/jko/Documents/programming/osxkeylogger    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jko/Documents/programming/osxkeylogger/build/Release -F/Users/jko/Documents/programming/osxkeylogger/build/Release -filelist /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger0#
+lSLF07#2@135"Link /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger320974296#320974296#0(0"0(0#0#0"8632994528#650"    cd /Users/jko/Documents/programming/osxkeylogger    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jko/Documents/programming/osxkeylogger/build/Release -F/Users/jko/Documents/programming/osxkeylogger/build/Release -filelist /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/i386/osxkeylogger0#
 
 CLd /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger normal ppc
-s320968825.348300
-e320968827.837205
+s320974297.321623
+e320974297.432044
 r1
 xLd
 x/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger
 xnormal
 xppc
-lSLF07#2@134"Link /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger320968825#320968827#0(0"0(0#0#0"8606269920#647"    cd /Users/jko/Documents/programming/osxkeylogger    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jko/Documents/programming/osxkeylogger/build/Release -F/Users/jko/Documents/programming/osxkeylogger/build/Release -filelist /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger0#
+lSLF07#2@134"Link /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger320974297#320974297#0(0"0(0#0#0"8636191552#647"    cd /Users/jko/Documents/programming/osxkeylogger    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jko/Documents/programming/osxkeylogger/build/Release -F/Users/jko/Documents/programming/osxkeylogger/build/Release -filelist /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/ppc/osxkeylogger0#
 
 CLd /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger normal x86_64
-s320968765.786578
-e320968773.330065
+s320974295.622751
+e320974296.681120
 r1
 xLd
 x/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger
 xnormal
 xx86_64
-lSLF07#2@137"Link /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger320968765#320968773#0(0"0(0#0#0"8604519776#656"    cd /Users/jko/Documents/programming/osxkeylogger    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jko/Documents/programming/osxkeylogger/build/Release -F/Users/jko/Documents/programming/osxkeylogger/build/Release -filelist /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger0#
+lSLF07#2@137"Link /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger320974295#320974296#0(0"0(0#0#0"8633071936#656"    cd /Users/jko/Documents/programming/osxkeylogger    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jko/Documents/programming/osxkeylogger/build/Release -F/Users/jko/Documents/programming/osxkeylogger/build/Release -filelist /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/Objects-normal/x86_64/osxkeylogger0#
 
 CProcessInfoPlistFile /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app/Contents/Info.plist osxkeylogger-Info.plist
 s320969000.001510
@@ -462,10 +461,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile osxkeylogger_Prefix.pch320460360#320460366#0(0"0(0#0#69"/Users/jko/Documents/programming/osxkeylogger/osxkeylogger_Prefix.pch8619184992#1559"    cd /Users/jko/Documents/programming/osxkeylogger    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-generated-files.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-own-target-headers.hmap -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-all-target-headers.hmap -iquote /Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/osxkeylogger-project-headers.hmap -F/Users/jko/Documents/programming/osxkeylogger/build/Release -I/Users/jko/Documents/programming/osxkeylogger/build/Release/include -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources/ppc -I/Users/jko/Documents/programming/osxkeylogger/build/osxkeylogger.build/Release/osxkeylogger.build/DerivedSources -c /Users/jko/Documents/programming/osxkeylogger/osxkeylogger_Prefix.pch -o /var/folders/GH/GHRvQhCsHZaT16uqNYlH1k+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/osxkeylogger_Prefix-gidnnpfjkkktnfgwkojeifuqdcnk/osxkeylogger_Prefix.pch.gch0#
 
 CTouch /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app
-s320969000.034816
-e320969000.048904
+s320974297.571864
+e320974297.575996
 r1
 xTouch
 x/Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app
-lSLF07#2@82"Touch /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app320969000#320969000#0(0"0(0#0#0"8606038432#152"    cd /Users/jko/Documents/programming/osxkeylogger    /usr/bin/touch -c /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app0#
+lSLF07#2@82"Touch /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app320974297#320974297#0(0"0(0#0#0"8629957632#152"    cd /Users/jko/Documents/programming/osxkeylogger    /usr/bin/touch -c /Users/jko/Documents/programming/osxkeylogger/build/Release/osxkeylogger.app0#
 
