@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* osxkeyloggerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* osxkeyloggerAppDelegate.m */; };
-		70FC0CC9131AD50900C9F1B1 /* leafLogo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 70FC0CC8131AD50900C9F1B1 /* leafLogo.icns */; };
 		70FC0D5F131AF32300C9F1B1 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FC0D5E131AF32300C9F1B1 /* Carbon.framework */; };
-		70FF357D131A780D00B25712 /* writerLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FF357C131A780D00B25712 /* writerLogo.png */; };
-		70FF3587131A795C00B25712 /* writerLogo.ico in Resources */ = {isa = PBXBuildFile; fileRef = 70FF3586131A795C00B25712 /* writerLogo.ico */; };
-		70FF358D131A7B2400B25712 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 70FF358C131A7B2400B25712 /* Icon.icns */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FE5AB9ED1815572D0077EF41 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE5AB9E91815572D0077EF41 /* Icon.icns */; };
+		FE5AB9EE1815572D0077EF41 /* leafLogo.icns in Resources */ = {isa = PBXBuildFile; fileRef = FE5AB9EA1815572D0077EF41 /* leafLogo.icns */; };
+		FE5AB9EF1815572D0077EF41 /* writerLogo.ico in Resources */ = {isa = PBXBuildFile; fileRef = FE5AB9EB1815572D0077EF41 /* writerLogo.ico */; };
+		FE5AB9F01815572D0077EF41 /* writerLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FE5AB9EC1815572D0077EF41 /* writerLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,13 +30,13 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		70FC0CC8131AD50900C9F1B1 /* leafLogo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = leafLogo.icns; path = ../../leafLogo.icns; sourceTree = SOURCE_ROOT; };
 		70FC0D5E131AF32300C9F1B1 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		70FF357C131A780D00B25712 /* writerLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = writerLogo.png; sourceTree = "<group>"; };
-		70FF3586131A795C00B25712 /* writerLogo.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = writerLogo.ico; path = ../../writerLogo.ico; sourceTree = SOURCE_ROOT; };
-		70FF358C131A7B2400B25712 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../../Icon.icns; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* osxkeylogger-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "osxkeylogger-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* osxkeylogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxkeylogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5AB9E91815572D0077EF41 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = Resources/Icon.icns; sourceTree = "<group>"; };
+		FE5AB9EA1815572D0077EF41 /* leafLogo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = leafLogo.icns; path = Resources/leafLogo.icns; sourceTree = "<group>"; };
+		FE5AB9EB1815572D0077EF41 /* writerLogo.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = writerLogo.ico; path = Resources/writerLogo.ico; sourceTree = "<group>"; };
+		FE5AB9EC1815572D0077EF41 /* writerLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = writerLogo.png; path = Resources/writerLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +112,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				70FC0CC8131AD50900C9F1B1 /* leafLogo.icns */,
-				70FF358C131A7B2400B25712 /* Icon.icns */,
-				70FF3586131A795C00B25712 /* writerLogo.ico */,
-				70FF357C131A780D00B25712 /* writerLogo.png */,
+				FE5AB9E91815572D0077EF41 /* Icon.icns */,
+				FE5AB9EA1815572D0077EF41 /* leafLogo.icns */,
+				FE5AB9EB1815572D0077EF41 /* writerLogo.ico */,
+				FE5AB9EC1815572D0077EF41 /* writerLogo.png */,
 				8D1107310486CEB800E47090 /* osxkeylogger-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -184,10 +184,10 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				70FF357D131A780D00B25712 /* writerLogo.png in Resources */,
-				70FF3587131A795C00B25712 /* writerLogo.ico in Resources */,
-				70FF358D131A7B2400B25712 /* Icon.icns in Resources */,
-				70FC0CC9131AD50900C9F1B1 /* leafLogo.icns in Resources */,
+				FE5AB9ED1815572D0077EF41 /* Icon.icns in Resources */,
+				FE5AB9EE1815572D0077EF41 /* leafLogo.icns in Resources */,
+				FE5AB9EF1815572D0077EF41 /* writerLogo.ico in Resources */,
+				FE5AB9F01815572D0077EF41 /* writerLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
